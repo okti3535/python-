@@ -1,0 +1,8 @@
+word = {}
+sentence = "hippo runs to us"
+for i in sentence: 
+   if i in word:
+     word[i] = word[i] + 1
+   else:
+     word[i] = 1
+print(word)
